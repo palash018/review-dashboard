@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom component classes live in the components layer so that Tailwind
+   utilities (e.g. `hidden`, responsive variants) correctly override them. */
+@layer components {
+  html {
+    @apply bg-slate-100;
+  }
+
+  .card {
+    @apply bg-white rounded-xl border border-slate-200 shadow-sm;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium whitespace-nowrap;
+  }
+
+  /* Horizontal scroll strip for filter chips on narrow screens */
+  .scroll-x {
+    @apply overflow-x-auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scroll-x::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Safety net: never allow page-level horizontal scrolling, even if some
+   future content is wider than the viewport (phone layout viewport stays put). */
+html,
+body {
+  overflow-x: hidden;
+}

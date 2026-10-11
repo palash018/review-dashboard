@@ -1,0 +1,13 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# FastAPI idiomatically calls Depends()/Query() in argument defaults
+"azzurro/api/main.py" = ["B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
