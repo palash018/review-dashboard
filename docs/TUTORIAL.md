@@ -11,12 +11,10 @@ export — run locally for live data).
 
 ## Video walkthrough (50 s)
 
-https://github.com/palash018/review-dashboard/assets/demo-tour.mp4
-
 <video src="demo-tour.mp4" controls muted playsinline width="100%"></video>
 
 *(If the embedded player doesn't render above, open
-[`docs/demo-tour.mp4`](docs/demo-tour.mp4) directly.)*
+[`docs/demo-tour.mp4`](demo-tour.mp4) directly.)*
 
 The video shows, in order: the KPI cards, complaint insights, clicking a
 complaint to jump to matching reviews, the keyword tooltip, text search,

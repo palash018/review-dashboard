@@ -31,7 +31,7 @@ run locally for live collection.
 
 ## Quick start
 
-Requires **Python 3.12+** and **Node.js 20+** (Google Chrome must be installed
+Requires **Python 3.12+** and **Node.js 20+ (22 recommended)** (Google Chrome must be installed
 for the scraper).
 
 ```bash

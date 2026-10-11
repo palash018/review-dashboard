@@ -1,6 +1,6 @@
 # Quick Start — get the dashboard running
 
-You need a computer with **Python 3.12+**, **Node.js 20+** and **Google Chrome**
+You need a computer with **Python 3.12+**, **Node.js 20+ (22 recommended)** and **Google Chrome**
 installed. No accounts or passwords. The guest reviews are already included
 in the download, so the dashboard works straight away without visiting
 Booking.com.
